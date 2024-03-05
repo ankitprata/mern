@@ -9,16 +9,18 @@ import ReactDOM from 'react-dom/client';
 // const useReducer = require('./useReducer');
 // import { useReducer } from 'react';
 // import App from './useState';
-import App from './useReducer';
+// import App from './useReducer';
+import Router from './Router';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Router/>
 
 
-    < App />
+    {/* < App /> */}
    
     {/* <A/>  */}
 
